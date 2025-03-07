@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Website</title>
+    <link rel="stylesheet" href="styleall.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+
+</head>
+<body>
+
+  <header >
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="" class="link" >HOME</a>
+                <a href="" class="link">BAND</a>
+                <a href="" class="link">TOUR</a>
+                <a href="" class="link">CONTACT</a>
+                <a class="link more" onclick="dropdown()">MORE <ion-icon name="caret-down-outline" >
+                    
+                </ion-icon></a>
+
+
+            </div>
+
+           
+            <div class="menu"  id="menu" onclick="sidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" fill="white">
+                <path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"></path>
+                </svg>
+            </div>
+            <div class="search">
+                <i class='bx bx-search-alt-2' ></i>
+            </div>
+
+        </nav>
+  </header>
+  <div class="sidebar" id="sidebar"  >
+    <a href="index.html" class="link" >HOME</a>
+    <a href="Band.html" class="link">BAND</a>
+    <a href="Tour.html" class="link">TOUR</a>
+    <a href="contact.html" class="link">CONTACT</a>   
+</div>
+
+
+  <div class="drop_down" id="drop_down" >
+    <a href="#" class="link_drop ">Merch</a>
+    <a href="#" class="link_drop ">Extras</a>
+    <a href="#" class="link_drop ">Media</a>
+</div>
+
+
+<main>
+
+
+
+    <section id="banner_section">
+        <div class="container content_dis">
+                <div class="banner_content" >
+                    <h2>
+                        Los Angeles
+                    </h2>
+                    <h3>
+                        We had the best time playing at Venice Beach!
+                    </h3>
+                </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section: About the Band -->
+    <section class="about-section">
+        <div class="container">
+
+            <div class="text-center band ">
+
+                <h2 class="band-title">THE BAND</h2>
+                <p class="band-subtitle">We love music</p>
+                <p class="description">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+    
+            <div class="band-members">
+                <div class="member">
+                    <p class="band-name">Name</p>
+                    <img src="tour/bandmember.jpg" alt="Band Member" class="img">
+                </div>
+                <div class="member">
+                    <p class="band-name">Name</p>
+                    <img src="tour/bandmember.jpg" alt="Band Member" class="img">
+                </div>
+                <div class="member">
+                    <p class="band-name">Name</p>
+                    <img src="tour/bandmember.jpg" alt="Band Member" class="img">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Section: Tour Dates -->
+    <section class="tour-section ">
+        <div class="container">
+
+            <div class="text-center">
+                <h2 class="tour-title">TOUR DATES</h2>
+                <p class="subtitle">Remember to book your tickets!</p>
+            </div>
+    
+            <div class="tour-schedule">
+                <div class="month">September <button class=" sold-out">Sold out</button></div>
+                <div class="month">October <button class=" sold-out">Sold out</button></div>
+                <div class="month">November</div>
+            </div>
+    
+            <div class="tour-cards">
+                <div class="card">
+                    <img src="tour/newyork.jpg" alt="New York" class="card-img">
+                    <div class="card-text">
+                        <h3 class="city">New York</h3>
+                        <p class="date">Fri 27 Nov 2016</p>
+                        <p class="card-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn ">Buy Tickets</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="tour/paris.jpg" alt="Paris" class="card-img">
+                    <div class="card-text">
+                        <h3 class="city">Paris</h3>
+                        <p class="date">Sat 28 Nov 2016</p>
+                        <p class="card-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="tour/sanfran.jpg" alt="San Francisco" class="card-img">
+                    <div class="card-text">
+                        <h3 class="city">San Francisco</h3>
+                        <p class="date">Sun 29 Nov 2016</p>
+                        <p class="card-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    
+        <section class="section-4" >
+            <div  >
+                <h2 class="contact" style="text-align: center; padding: 40px 20px 10px 20px;">CONTACT</h2>
+                <p style="text-align: center; color: gray;" class="fan" >
+                    Fan? Drop a note!
+                </p>
+            </div>
+    
+            <div class="container-sec4 container" >
+            
+            
+                <div class="contact-detail" >
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4" width="15" height="15">
+                            <path fill-rule="evenodd" d="m7.539 14.841.003.003.002.002a.755.755 0 0 0 .912 0l.002-.002.003-.003.012-.009a5.57 5.57 0 0 0 .19-.153 15.588 15.588 0 0 0 2.046-2.082c1.101-1.362 2.291-3.342 2.291-5.597A5 5 0 0 0 3 7c0 2.255 1.19 4.235 2.292 5.597a15.591 15.591 0 0 0 2.046 2.082 8.916 8.916 0 0 0 .189.153l.012.01ZM8 8.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" clip-rule="evenodd" />
+                          </svg>
+                          
+                          
+                        Chicago, US
+                    </p>
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5" width="15" height="15">
+                            <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z" clip-rule="evenodd" />
+                          </svg>
+                          
+            
+                        Phone: +00 151515
+                    </p>
+                    <p >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5" width="15" height="20" style="vertical-align: bottom;">
+                            <path d="M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z" />
+                            <path d="m19 8.839-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z" />
+                          </svg>
+                          
+            
+                        Email: mail@mail.com
+                    </p>
+                </div>
+            
+                <div class="table" >
+                    <form action="">
+                        <table >
+                            <tr>
+                                <td><input class="name" type="text" placeholder="Name"></td>
+                                
+                                <td ><input class="email" type="email" placeholder="Email"></td>
+                            </tr>
+                            <tr>
+                                
+                                <td colspan="2"><input class="message" type="text" placeholder="Message"></td>
+                            </tr>
+                            <tr></tr>
+                                <td></td>
+                                <td style="text-align: right;"><button class="btn" >SEND</button></td>
+                        </table>
+                    </form>
+                </div>
+            
+            
+            
+            </div>
+            
+<section>                
+    
+    <img src="tour/map.jpg" alt="" width="100%">
+    
+
+</section>
+
+
+</main>
+
+
+
+
+<footer>
+    <div class="icons text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 50 50" fill="rgb(39, 38, 38)">
+                <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M37,19h-2c-2.14,0-3,0.5-3,2 v3h5l-1,5h-4v15h-5V29h-4v-5h4v-3c0-4,2-7,6-7c2.9,0,4,1,4,1V19z"></path>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 50 50"  fill="rgb(39, 38, 38)">
+            <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 48 48">
+            <path fill="rgb(39, 38, 38)" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path><path fill="white" d="M24.164,37c-0.067,0-0.133-0.002-0.199-0.005l0,0C23.923,36.998,23.88,37,23.835,37 c-1.54,0-2.529-0.716-3.485-1.408c-0.66-0.478-1.283-0.929-2.017-1.054c-0.358-0.061-0.714-0.091-1.059-0.091 c-0.62,0-1.11,0.098-1.468,0.169c-0.217,0.044-0.405,0.081-0.547,0.081c-0.149,0-0.31-0.033-0.38-0.278 c-0.061-0.212-0.105-0.418-0.147-0.617c-0.109-0.512-0.187-0.828-0.396-0.86c-2.443-0.387-3.142-0.913-3.298-1.288 c-0.022-0.053-0.035-0.107-0.038-0.16c-0.008-0.143,0.092-0.271,0.23-0.294c3.755-0.634,5.439-4.566,5.51-4.733 c0.002-0.005,0.004-0.009,0.006-0.014c0.23-0.477,0.275-0.892,0.134-1.231c-0.258-0.622-1.002-0.886-1.558-1.066 c-0.136-0.044-0.265-0.086-0.367-0.127c-1.11-0.45-1.202-0.911-1.159-1.147c0.074-0.401,0.597-0.68,1.02-0.68 c0.116,0,0.218,0.021,0.304,0.062c0.499,0.24,0.853,0.351,1.241,0.351c0.537,0,0.771-0.231,0.799-0.262 c-0.014-0.26-0.031-0.532-0.048-0.813c-0.112-1.819-0.251-4.079,0.311-5.369c1.683-3.867,5.254-4.167,6.308-4.167 c0.027,0,0.462-0.005,0.462-0.005h0.063c1.057,0,4.634,0.301,6.319,4.17c0.562,1.291,0.423,3.553,0.311,5.37l-0.005,0.079 c-0.015,0.253-0.031,0.499-0.043,0.734c0.027,0.028,0.242,0.24,0.729,0.26h0.001c0.37-0.015,0.711-0.109,1.177-0.333 c0.136-0.065,0.288-0.079,0.392-0.079c0.158,0,0.318,0.031,0.451,0.088l0.008,0.004c0.377,0.137,0.624,0.408,0.629,0.691 c0.005,0.266-0.194,0.667-1.168,1.061c-0.101,0.041-0.23,0.083-0.367,0.127c-0.557,0.181-1.313,0.428-1.571,1.05 c-0.141,0.34-0.096,0.753,0.134,1.231c0.002,0.005,0.004,0.009,0.006,0.014c0.07,0.167,1.753,4.098,5.51,4.732 c0.139,0.024,0.238,0.15,0.23,0.294c-0.003,0.054-0.016,0.108-0.038,0.161c-0.155,0.371-0.854,0.898-3.297,1.285 c-0.2,0.031-0.277,0.298-0.396,0.857c-0.043,0.203-0.087,0.403-0.148,0.613c-0.052,0.182-0.163,0.268-0.35,0.268h-0.03 c-0.129,0-0.314-0.024-0.547-0.071c-0.414-0.083-0.877-0.159-1.468-0.159c-0.344,0-0.701,0.031-1.059,0.091 c-0.733,0.125-1.356,0.576-2.014,1.053C26.693,36.284,25.704,37,24.164,37z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 50 50" fill="rgb(39, 38, 38)">
+                <path d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609825 4 46 13.390175 46 25 C 46 36.609825 36.609825 46 25 46 C 22.876355 46 20.82771 45.682142 18.896484 45.097656 C 19.75673 43.659418 20.867347 41.60359 21.308594 39.90625 C 21.570728 38.899887 22.648438 34.794922 22.648438 34.794922 C 23.348841 36.132057 25.395277 37.263672 27.574219 37.263672 C 34.058123 37.263672 38.732422 31.300682 38.732422 23.890625 C 38.732422 16.78653 32.935409 11.472656 25.476562 11.472656 C 16.196831 11.472656 11.271484 17.700825 11.271484 24.482422 C 11.271484 27.636307 12.94892 31.562193 15.634766 32.8125 C 16.041611 33.001865 16.260073 32.919834 16.353516 32.525391 C 16.425459 32.226044 16.788267 30.766792 16.951172 30.087891 C 17.003269 29.871239 16.978043 29.68405 16.802734 29.470703 C 15.913793 28.392399 15.201172 26.4118 15.201172 24.564453 C 15.201172 19.822048 18.791452 15.232422 24.908203 15.232422 C 30.18976 15.232422 33.888672 18.832872 33.888672 23.980469 C 33.888672 29.796219 30.95207 33.826172 27.130859 33.826172 C 25.020554 33.826172 23.440361 32.080359 23.947266 29.939453 C 24.555054 27.38426 25.728516 24.626944 25.728516 22.78125 C 25.728516 21.130713 24.842754 19.753906 23.007812 19.753906 C 20.850369 19.753906 19.117188 21.984457 19.117188 24.974609 C 19.117187 26.877359 19.761719 28.166016 19.761719 28.166016 C 19.761719 28.166016 17.630543 37.176514 17.240234 38.853516 C 16.849091 40.52931 16.953851 42.786365 17.115234 44.466797 C 9.421139 41.352465 4 33.819328 4 25 C 4 13.390175 13.390175 4 25 4 z"></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 50 50" fill="rgb(39, 38, 38)">
+                <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 50 50" fill="rgb(39, 38, 38)">
+                    <path d="M 8 3.0117188 C 6.3126093 3.0117188 4.8354789 3.4916328 3.7539062 4.3652344 C 2.6723337 5.238836 2.0117188 6.533218 2.0117188 7.9472656 C 2.0117188 10.690836 4.4687078 12.814467 7.7167969 12.941406 A 0.98809878 0.98809878 0 0 0 8 12.988281 C 9.753566 12.988281 11.246191 12.474267 12.3125 11.564453 C 13.378809 10.654639 13.988281 9.3429353 13.988281 7.9472656 A 0.98809878 0.98809878 0 0 0 13.986328 7.8925781 C 13.832307 5.1316834 11.374781 3.0117187 8 3.0117188 z M 8 4.9882812 C 10.60907 4.9882812 11.895883 6.2693448 12.005859 7.9726562 C 11.998759 8.8049335 11.676559 9.5118991 11.03125 10.0625 C 10.378809 10.619186 9.371434 11.011719 8 11.011719 C 5.3980542 11.011719 3.9882813 9.5991704 3.9882812 7.9472656 C 3.9882812 7.1213132 4.3276663 6.4422421 4.9960938 5.9023438 C 5.6645211 5.3624454 6.6873907 4.9882813 8 4.9882812 z M 3 15 A 1.0001 1.0001 0 0 0 2 16 L 2 45 A 1.0001 1.0001 0 0 0 3 46 L 13 46 A 1.0001 1.0001 0 0 0 14 45 L 14 35.664062 L 14 16 A 1.0001 1.0001 0 0 0 13 15 L 3 15 z M 18 15 A 1.0001 1.0001 0 0 0 17 16 L 17 45 A 1.0001 1.0001 0 0 0 18 46 L 28 46 A 1.0001 1.0001 0 0 0 29 45 L 29 29 L 29 28.75 L 29 28.5 C 29 26.555577 30.555577 25 32.5 25 C 34.444423 25 36 26.555577 36 28.5 L 36 45 A 1.0001 1.0001 0 0 0 37 46 L 47 46 A 1.0001 1.0001 0 0 0 48 45 L 48 28 C 48 23.873476 46.787888 20.604454 44.744141 18.375 C 42.700394 16.145546 39.849212 15 36.787109 15 C 32.882872 15 30.521631 16.426076 29 17.601562 L 29 16 A 1.0001 1.0001 0 0 0 28 15 L 18 15 z M 4 17 L 12 17 L 12 35.664062 L 12 44 L 4 44 L 4 17 z M 19 17 L 27 17 L 27 19.638672 A 1.0001 1.0001 0 0 0 28.744141 20.306641 C 28.744141 20.306641 31.709841 17 36.787109 17 C 39.360007 17 41.615528 17.922268 43.269531 19.726562 C 44.923534 21.530858 46 24.261524 46 28 L 46 44 L 38 44 L 38 28.5 A 1.0001 1.0001 0 0 0 37.916016 28.089844 C 37.694061 25.26411 35.38033 23 32.5 23 C 29.474423 23 27 25.474423 27 28.5 L 27 28.75 L 27 29 L 27 44 L 19 44 L 19 17 z"></path>
+                    </svg>
+    </div>
+    <p class="text-center footer-text">Powered By W3.Css</p>
+
+
+
+</footer>
+
+<script src="index.js">
+
+</script>
+                
+                
+    
+
+</body>
+</html>
